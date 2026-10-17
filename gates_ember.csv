@@ -1,0 +1,8 @@
+dataset,rung,month,A0_index_overlap,A1_group_overlap,A2_hash_overlap,A3_max_train_t,A3_min_test_t,A4_outside_window
+ember,temporal,2018-07,0,0,0,24222.0,24223.0,0.0
+ember,temporal,2018-08,0,0,0,24222.0,24224.0,0.0
+ember,temporal,2018-09,0,0,0,24222.0,24225.0,0.0
+ember,temporal,2018-10,0,0,0,24222.0,24226.0,0.0
+ember,temporal,2018-11,0,0,0,24222.0,24227.0,0.0
+ember,temporal,2018-12,0,0,0,24222.0,24228.0,0.0
+ember,random_contrast,random,0,0,0,,,

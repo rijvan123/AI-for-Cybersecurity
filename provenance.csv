@@ -1,0 +1,6 @@
+dataset,file,rows,features,malware,benign,groups,timestamps,label_oracle,source
+CIC-MalMem-2022,Obfuscated-MalMem2022.csv,58596,55,29298,29298,2887 binaries (median 10 dumps),malware only: 28593 rows dated (VirusTotal first-submission month),creator labels; VirusTotal-sourced binaries executed in a Windows 10 VM; benign SMOTE-balanced,"CIC/UNB (Carrier et al., ICISSP 2022), author upload"
+BODMAS,bodmas.npz + metadata + category,134435,2381,57293,77142,582 malware families,both classes; in-window benign 66411 of 77142,dataset authors (vendor labels + aggregated AV verdicts),"Yang et al., IEEE SPW 2021; author upload"
+EMBER-2018 (subsample),_S9_shards (6 gzip CSV),60000,2381,30000,30000,1066 AVClass families,"both classes (appeared month), 2,500 per month x class, 2018-01..12",EMBER labels (AV-threshold; unlabelled rows excluded),"Anderson & Roth 2018 (raw features, author copy); stratified seed 20181016"
+NSL-KDD,official train/test partitions,148517,41,71463,77054,4 attack families,none,testbed attack schedule (published labels),Tavallaee et al. 2009; GitHub mirror defcom17/NSL_KDD
+UNSW-NB15,official train/test partitions,257673,42,164673,93000,9 attack families,none,testbed attack schedule (published labels),Moustafa & Slay 2015; GitHub mirror Nir-J/ML-Projects
