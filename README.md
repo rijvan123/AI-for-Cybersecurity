@@ -1,4 +1,4 @@
-# S9 experimental harness (CPU-only)
+# 
 
 Harness for the Discover Artificial Intelligence manuscript *AI for Cybersecurity: Innovations in Threat Detection,
 Prevention, and Privacy*. It implements the S2 lock (fused framework; CIC-MalMem-2022 data-validity flagship;
